@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <!-- Custom color scheme -->
+    <color name="pink">#FFB0A9</color>
+    <color name="yellow">#F9D678</color>
+    <color name="teal">#01877E</color>
+    <color name="light_teal">#B6DDDA</color>
+    <color name="dark_blue">#13313D</color>
+
+    <!-- Theme colors -->
+    <color name="primary">@color/teal</color>
+    <color name="primary_variant">@color/dark_blue</color>
+    <color name="accent">@color/yellow</color>
+    <color name="background">@color/light_teal</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="error">#B00020</color>
+
+    <color name="text_primary">@color/dark_blue</color>
+    <color name="text_secondary">#757575</color>
+    <color name="white">#FFFFFF</color>
+</resources>

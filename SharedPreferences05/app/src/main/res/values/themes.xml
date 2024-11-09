@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SharedPreferences05" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/yellow</item>
+        <item name="colorOnSecondary">@color/dark_blue</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/primary_variant</item>
+
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorError">@color/error</item>
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+
+        <!-- Widget styles -->
+        <item name="materialCardViewStyle">@style/Widget.TodoApp.CardView</item>
+        <item name="textInputStyle">@style/Widget.TodoApp.TextInputLayout</item>
+        <item name="checkboxStyle">@style/Widget.TodoApp.CheckBox</item>
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <!-- Custom widget styles -->
+    <style name="Widget.TodoApp.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">2dp</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardBackgroundColor">@color/surface</item>
+        <item name="rippleColor">@color/light_teal</item>
+    </style>
+
+    <style name="Widget.TodoApp.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/teal</item>
+        <item name="hintTextColor">@color/teal</item>
+        <item name="errorTextColor">@color/error</item>
+    </style>
+
+    <style name="Widget.TodoApp.CheckBox" parent="Widget.MaterialComponents.CompoundButton.CheckBox">
+        <item name="buttonTint">@color/accent</item>
+    </style>
+    <style name="Theme.SharedPreferences05" parent="Base.Theme.SharedPreferences05" />
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Quản lý công việc</string>
+    <string name="add_task">Thêm công việc</string>
+    <string name="edit_task">Chỉnh sửa công việc</string>
+    <string name="delete_task">Xóa công việc</string>
+    <string name="confirm_delete">Bạn có chắc muốn xóa công việc này?</string>
+    <string name="task_title">Tiêu đề</string>
+    <string name="task_description">Mô tả</string>
+    <string name="save">Lưu</string>
+    <string name="cancel">Hủy</string>
+    <string name="delete">Xóa</string>
+    <string name="edit">Chỉnh sửa</string>
+</resources>
